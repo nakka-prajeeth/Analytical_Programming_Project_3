@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "nypd_shooting_analysis"
+name = "src"
 version = "0.1.0"
 description = "Python Package for EDA"
 authors = ["Prajeeth Nakka"]
@@ -23,7 +23,7 @@ pytest = "^6.2"
 where = ["src"]
 
 [tool.setuptools.package-data]
-"nypd_shooting_analysis" = ["*"]
+"src" = ["*"]
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
