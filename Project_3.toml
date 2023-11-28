@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "nypd_shooting_analysis"
+version = "0.1.0"
+description = "A Python package for analyzing NYPD Shooting Incident Data."
+authors = ["Prajeeth Nakka>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+numpy = "^1.21"
+pandas = "^1.3"
+seaborn = "^0.11"
+matplotlib = "^3.4"
+scipy = "^1.8.1"
+geopandas = "^0.10.2"
+IPython = "^8.3.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^6.2"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
