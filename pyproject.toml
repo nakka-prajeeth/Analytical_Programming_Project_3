@@ -1,7 +1,7 @@
 [tool.poetry]
 name = "src"
 version = "0.1.0"
-description = "Python Package for EDA"
+description = "Clustering Model Analysis"
 authors = ["Prajeeth Nakka"]
 license = "MIT"
 readme = "README.md"
